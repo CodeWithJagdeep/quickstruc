@@ -1,50 +1,53 @@
+Here's a rewritten version of your README with "Quickstruc" as the new name:
 
-![Reactify Logo](https://github.com/user-attachments/assets/beb04aa0-7158-4fae-b952-55e8718fab67)
+---
 
-Reactify is a powerful npm module designed to help developers streamline the setup of professional React projects. It dynamically generates folder structures, boilerplate code, and configurations for TypeScript and JavaScript projects, ensuring best practices and scalability.
+![Quickstruc Logo](https://github.com/user-attachments/assets/beb04aa0-7158-4fae-b952-55e8718fab67)
+
+**Quickstruc** is a powerful npm module designed to help developers quickly set up professional React projects. It automatically generates well-organized folder structures, boilerplate code, and configurations for TypeScript and JavaScript projects, ensuring scalability and best practices.
 
 ---
 
 ## Features
 
-- **Dynamic Folder Structure**: Automatically creates a professional and well-organized folder structure for your React projects.
-- **Boilerplate Code**: Includes pre-written code for Redux setup, reusable components, API services, and more.
-- **TypeScript and JavaScript Support**: Allows you to choose between TypeScript or JavaScript during setup.
-- **Tailwind CSS Integration**: Comes with pre-configured Tailwind CSS setup.
-- **Interactive CLI**: Guides you through project setup using an intuitive command-line interface.
-- **Performance Metrics**: Includes Web Vitals for performance monitoring.
-- **Lightweight and Focused**: Ideal for small-to-medium-scale projects or developers looking for quick setups.
+- **Dynamic Folder Structure**: Automatically generates a clean, professional folder structure for your React projects.
+- **Boilerplate Code**: Pre-written boilerplate for Redux setup, reusable components, API services, and more.
+- **TypeScript and JavaScript Support**: Choose between TypeScript or JavaScript during project setup.
+- **Tailwind CSS Integration**: Pre-configured Tailwind CSS setup out of the box.
+- **Interactive CLI**: Easy-to-follow command-line interface for an intuitive setup process.
+- **Performance Monitoring**: Built-in Web Vitals for tracking and improving performance.
+- **Lightweight and Focused**: Perfect for small-to-medium-sized projects or quick development setups.
 
 ---
 
 ## Installation
 
-To install Reactify globally, run:
+To install **Quickstruc** globally, run the following command:
 
 ```bash
-npm install -g reactify
+npm install -g quickstruc
 ```
 
 ---
 
 ## Usage
 
-1. Run the following command to create a new React project:
+1. Create a new React project by running:
 
    ```bash
-   npx reactify init
+   npx quickstruc init
    ```
 
 2. Follow the CLI prompts to:
-   - Enter your project name.
+   - Provide your project name.
    - Choose between TypeScript or JavaScript.
 
-3. Reactify will:
+3. **Quickstruc** will:
    - Set up a professional folder structure.
-   - Install necessary dependencies.
-   - Generate boilerplate code.
+   - Install all required dependencies.
+   - Generate necessary boilerplate code.
 
-4. Navigate to your project folder and start coding:
+4. Navigate to your project folder and start developing:
 
    ```bash
    cd <project-name>
@@ -53,11 +56,9 @@ npm install -g reactify
 
 ---
 
----
-
 ## Built-in Boilerplate Code
 
-Reactify provides:
+**Quickstruc** includes the following boilerplate code:
 
 - **Redux Setup**:
   - `store.js`
@@ -75,7 +76,7 @@ Reactify provides:
 
 ## Dependencies
 
-Reactify installs the following dependencies:
+The following dependencies are installed by **Quickstruc**:
 
 - `react`, `react-dom`
 - `react-router-dom`
@@ -90,10 +91,10 @@ Reactify installs the following dependencies:
 
 1. **Initialize the Project**:
    ```bash
-   npx reactify init
+   npx quickstruc init
    ```
 
-2. **Output Structure**:
+2. **Output Folder Structure**:
    ```
    Project initialized successfully!
    Folder structure:
@@ -116,7 +117,7 @@ Reactify installs the following dependencies:
 
 ## Contributions
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve **Quickstruc**.
 
 ---
 
@@ -128,4 +129,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Feedback
 
-We'd love to hear your feedback! Let us know what features you'd like to see next or how we can improve Reactify.
+We’d love to hear from you! Share your feedback on new features or improvements for **Quickstruc**. Let us know how we can make it better!
+
+---
+
+This version is updated to reflect your chosen project name "Quickstruc" and includes all relevant details. Let me know if you need any further adjustments!
