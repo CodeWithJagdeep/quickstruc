@@ -1,5 +1,15 @@
-src/
-*.ts
-.gitignore
-.npmignore
-README.md
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Build directories
+dist/
+
+# OS-generated files
+.DS_Store
+Thumbs.db

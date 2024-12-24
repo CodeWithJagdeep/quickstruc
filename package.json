@@ -1,20 +1,7 @@
 {
-  "name": "reactify",
-  "version": "1.0.0",
-  "description": "Reactify is a Node.js-powered module designed to streamline project scaffolding.",
-  "main": "index.js",
-  "type": "commonjs",
-  "scripts": {
-    "init": "node ./bin/init.js",
-    "start": "node ./bin/init.js"
-  },
-  "bin": {
-    "reactify": "./bin/init.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/WorkwithJagdeep/reactify.git"
-  },
+  "name": "quickstruc",
+  "version": "1.0.3",
+  "description": "quickstruc is a Node.js-powered module designed to streamline project scaffolding.",
   "keywords": [
     "scaffolding",
     "project-setup",
@@ -24,14 +11,38 @@
     "automation",
     "developer-tools"
   ],
-  "author": "Jagdeep singh",
+  "homepage": "https://github.com/CodeWithJagdeep/quickstruc#readme",
+  "bugs": {
+    "url": "https://github.com/CodeWithJagdeep/quickstruc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWithJagdeep/quickstruc.git"
+  },
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^22.10.2",
-    "typescript": "^5.7.2"
+  "author": "Jagdeep singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "quickstruc": "src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "boilerplate",
+    "util"
+  ],
+  "scripts": {
+    "init": "node ./src/index.js",
+    "start": "node ./src/index.js"
   },
   "dependencies": {
     "cli-color": "^2.0.4",
-    "inquirer": "^12.2.0"
+    "inquirer": "^12.2.0",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
   }
 }

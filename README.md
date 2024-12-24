@@ -1,6 +1,4 @@
-Here's a rewritten version of your README with "Quickstruc" as the new name:
 
----
 
 ![Quickstruc Logo](https://github.com/user-attachments/assets/beb04aa0-7158-4fae-b952-55e8718fab67)
 

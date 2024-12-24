@@ -66,4 +66,4 @@ async function initProject() {
   }
 }
 
-module.exports = initProject;
+initProject();
