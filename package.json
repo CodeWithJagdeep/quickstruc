@@ -1,0 +1,37 @@
+{
+  "name": "reactify",
+  "version": "1.0.0",
+  "description": "Reactify is a Node.js-powered module designed to streamline project scaffolding.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "init": "node ./bin/init.js",
+    "start": "node ./bin/init.js"
+  },
+  "bin": {
+    "reactify": "./bin/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WorkwithJagdeep/reactify.git"
+  },
+  "keywords": [
+    "scaffolding",
+    "project-setup",
+    "file-creation",
+    "folder-structure",
+    "nodejs",
+    "automation",
+    "developer-tools"
+  ],
+  "author": "Jagdeep singh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "cli-color": "^2.0.4",
+    "inquirer": "^12.2.0"
+  }
+}
