@@ -1,6 +1,7 @@
 
-
-![Quickstruc Logo](https://github.com/user-attachments/assets/beb04aa0-7158-4fae-b952-55e8718fab67)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cd7f22da-f77d-497f-ad39-07d9d9315cf6" alt="Quickstruc Logo"/>
+</p>
 
 **Quickstruc** is a powerful npm module designed to help developers quickly set up professional React projects. It automatically generates well-organized folder structures, boilerplate code, and configurations for TypeScript and JavaScript projects, ensuring scalability and best practices.
 
