@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Specify the ECMAScript target version
+    "module": "CommonJS", // Specify module code generation
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./", // Root directory of input files
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Allow compatibility with CommonJS modules
+    "resolveJsonModule": true // Enable importing of JSON files
+  },
+  "include": [
+    "config/**/*.ts", // Include all .ts files in config folder and subdirectories
+    "controllers/**/*.ts", // Include all .ts files in controllers folder and subdirectories
+    "middlewares/**/*.ts", // Include all .ts files in middlewares folder and subdirectories
+    "models/**/*.ts", // Include all .ts files in models folder and subdirectories
+    "routes/**/*.ts", // Include all .ts files in routes folder and subdirectories
+    "services/**/*.ts", // Include all .ts files in services folder and subdirectories
+    "utils/**/*.ts", // Include all .ts files in utils folder and subdirectories
+    "public/**/*.ts", // Include all .ts files in public folder and subdirectories
+    "*.ts"
+  ],
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist directories
+}

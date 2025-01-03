@@ -1,0 +1,47 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: . # Use the current directory to build the image
+      dockerfile: Dockerfile # Use the Dockerfile defined above
+    container_name: myapp-container
+    ports:
+      - "8000:8000" # Expose port 8000 on the host to port 8000 in the container
+    environment:
+      - NODE_ENV=${NODE_ENV}
+      - PORT=${PORT}
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_EXPIRES_IN=${JWT_EXPIRES_IN}
+      - DATABASE_URL=${DATABASE_URL}
+      
+      - MAIL_HOST=${MAIL_HOST}
+      - MAIL_PORT=${MAIL_PORT}
+      - MAIL_USERNAME=${MAIL_USERNAME}
+      - MAIL_PASSWORD=${MAIL_PASSWORD}
+      - MAIL_FROM_NAME=${MAIL_FROM_NAME}
+      - MAIL_FROM_ADDRESS=${MAIL_FROM_ADDRESS}
+      - LOG_LEVEL=${LOG_LEVEL}
+      - BASE_API_URL=${BASE_API_URL}
+      - DOCKER_ENV=${DOCKER_ENV}
+      - THIRD_PARTY_API_KEY=${THIRD_PARTY_API_KEY}
+      - APP_NAME=${APP_NAME}
+      - TIMEZONE=${TIMEZONE}
+    volumes:
+      - .:/app # Mount the current directory to /app inside the container
+    depends_on:
+      - db # Assuming a db service is defined below
+
+  db:
+    image: mysql:8.0
+    container_name: mydb-container
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD} # Corrected to use colon `:`
+      MYSQL_DATABASE: ${DB_NAME} # Corrected to use colon `:`
+    ports:
+      - "3306:3306" # Expose MySQL port 3306
+    volumes:
+      - db_data:/var/lib/mysql # Persistent volume for MySQL
+
+volumes:
+  db_data:

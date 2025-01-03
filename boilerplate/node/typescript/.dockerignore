@@ -1,0 +1,33 @@
+# Ignore node_modules (local dependencies not needed inside the container)
+node_modules
+
+# Ignore logs
+*.log
+logs
+*.out
+
+# Ignore environment files (to avoid leaking secrets)
+.env
+.env.local
+.env.test
+
+# Ignore temporary or OS-specific files
+*.swp
+*.tmp
+*.bak
+*.pid
+*.seed
+.DS_Store
+Thumbs.db
+
+# Ignore build directories (if applicable)
+dist
+build
+out
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore Dockerfile and Docker-compose override files (optional)
+docker-compose.override.yml
