@@ -35,6 +35,7 @@ async function handleReactSetup(answers) {
     "web-vitals",
     "axios",
     "react-icons",
+    "redux",
   ];
 
   // List of development dependencies
@@ -51,6 +52,12 @@ async function handleReactSetup(answers) {
     "@types/react",
     "@types/react-dom",
     "@types/axios",
+    "@types/redux",
+    "@types/react-redux",
+    "@types/react-router-dom",
+    "@types/web-vitals",
+    "ts-node",
+    "@types/chai",
   ];
 
   try {

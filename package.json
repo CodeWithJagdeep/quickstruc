@@ -1,6 +1,6 @@
 {
   "name": "quickstruc",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "quickstruc is a Node.js-powered module designed to streamline project scaffolding.",
   "keywords": [
     "scaffolding",
